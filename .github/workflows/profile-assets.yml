@@ -1,0 +1,55 @@
+name: Build & Publish Profile Assets
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare dist
+        run: |
+          rm -rf dist
+          mkdir -p dist/images
+
+      # -------- generar contribuciones (pacman / snake) --------
+      - name: Generate contribution graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: rorogallardo
+          outputs: |
+            dist/images/pacman.svg
+            dist/images/pacman-dark.svg?palette=github-dark
+
+      # -------- descargar imágenes externas --------
+      - name: Download external images
+        run: |
+          curl -L https://example.com/banner-light.png \
+            -o dist/images/banner-light.png
+
+          curl -L https://example.com/banner-dark.png \
+            -o dist/images/banner-dark.png
+
+          curl -L https://example.com/logo.svg \
+            -o dist/images/logo.svg
+
+      # -------- publicar en branch output --------
+      - name: Publish to output
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          force_orphan: true
