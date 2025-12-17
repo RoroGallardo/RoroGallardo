@@ -1,0 +1,39 @@
+name: Generate Tidal Favorites
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install deps
+        run: npm install tidal-api-wrapper
+
+      - name: Run tidal script
+        env:
+          TIDAL_USER: ${{ secrets.TIDAL_USER }}
+          TIDAL_PASS: ${{ secrets.TIDAL_PASS }}
+        run: node scripts/generate-favorites.js
+
+      - name: Publish to output
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+        
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: dist
+          force_orphan: true

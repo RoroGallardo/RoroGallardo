@@ -68,6 +68,7 @@ export const lifeStyle = [
 ![Java](https://img.shields.io/badge/Java-3776AB?style=flat-square&logo=coffeescript&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-3776AB?style=flat-square&logo=arduino&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-3776AB?style=flat-square&logo=go&logoColor=white)
+![AppScript](https://img.shields.io/badge/AppScript-3776AB?style=flat-square&logo=googleappsscript&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -77,6 +78,7 @@ export const lifeStyle = [
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML_5-38B2AC?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS_3-38B2AC?style=flat-square&logo=css&logoColor=white)
+![mui](https://img.shields.io/badge/Mui-38B2AC?style=flat-square&logo=mui&logoColor=white)
 
 ### Backend 
 ![NestJS](https://img.shields.io/badge/NestJS-339933?style=flat-square&logo=nestjs&logoColor=white)
@@ -84,7 +86,6 @@ export const lifeStyle = [
 ![Express](https://img.shields.io/badge/Express-339933?style=flat-square&logo=express&logoColor=white)
 
 ### Database
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![ElasticSearch](https://img.shields.io/badge/ElasticSearch-4169E1?style=flat-square&logo=elastic&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-4169E1?style=flat-square&logo=redis&logoColor=white)
@@ -94,15 +95,30 @@ export const lifeStyle = [
 
 ### Tools
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=codecrafters&logoColor=white)
 ![Mosquitto](https://img.shields.io/badge/Mosquitto-F05032?style=flat-square&logo=eclipsemosquitto&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-F05032?style=flat-square&logo=kibana&logoColor=white)
 ![Copilot](https://img.shields.io/badge/Copilot-F05032?style=flat-square&logo=githubcopilot&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-F05032?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-F05032?style=flat-square&logo=apachekafka&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-F05032?style=flat-square&logo=swagger&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F05032?style=flat-square&logo=figma&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-F05032?style=flat-square&logo=n8n&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-F05032?style=flat-square&logo=confluence&logoColor=white)
+![Docosaurus](https://img.shields.io/badge/Docusaurus-F05032?style=flat-square&logo=docusaurus&logoColor=white)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-F05032?style=flat-square&logo=puppeteer&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-F05032?style=flat-square&logo=jira&logoColor=white)
+
+### DevOps / Cloud
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-3FCF8E?style=flat-square&logo=docker&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-3FCF8E?style=flat-square&logo=googlecloud&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-3FCF8E?style=flat-square&logo=cloudflare&logoColor=white)
 
 ### Architectures & Methodology
 ![DDD](https://img.shields.io/badge/DDD-FF6F00?style=flat-square&logo=commonworkflowlanguage&logoColor=white)
+![Hexagonal](https://img.shields.io/badge/Hexagonal-FF6F00?style=flat-square&logo=hexo&logoColor=white)
+![Event-Driven](https://img.shields.io/badge/Event_Driven-FF6F00?style=flat-square&logo=kununu&logoColor=white)
 
 
 </div>
@@ -161,5 +177,13 @@ I'm always open to interesting conversations and collaboration opportunities.
 
 ### ✨ *"Code is poetry written in logic"*
 
+
+</div>
+
+<br />
+
+<div align="center">
+
+[![Codewars Badge](https://www.codewars.com/users/RoroGallardo/badges/large)](https://www.codewars.com/users/RoroGallardo)
 
 </div>
