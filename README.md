@@ -6,6 +6,8 @@
 
 <br />
 
+
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rorogallardo.qemo.cl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-gallardo-arquero-6b093153/)
 
@@ -142,7 +144,8 @@ export const lifeStyle = [
 [![Proyecto 2](https://github-readme-stats.vercel.app/api/pin/?username=tu-usuario&repo=proyecto-2&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/tu-usuario/proyecto-2)
 
 </div> -->
-
+ 
+ 
 <br />
 
 ## 📈 Contribution Graph
@@ -186,4 +189,13 @@ I'm always open to interesting conversations and collaboration opportunities.
 
 [![Codewars Badge](https://www.codewars.com/users/RoroGallardo/badges/large)](https://www.codewars.com/users/RoroGallardo)
 
+</div>
+ 
+
+
+## 🕹️ Let's Play!
+ <div align="center">
+
+
+ [![Steam Card](https://github-readme-steam-card.vercel.app/status/?steamid=76561198519898925&show_recent_game_bg=true)](https://steamcommunity.com/profiles/76561198519898925/)
 </div>
