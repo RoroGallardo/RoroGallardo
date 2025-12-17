@@ -27,7 +27,10 @@ jobs:
         env:
           TIDAL_USER: ${{ secrets.TIDAL_USER }}
           TIDAL_PASS: ${{ secrets.TIDAL_PASS }}
-        run: node scripts/generate-favorites.js
+        run: node .github/scripts/generate-favorites.js
+
+      - name: List files
+        run: ls -R
 
       - name: Publish to output
         uses: peaceiris/actions-gh-pages@v4
