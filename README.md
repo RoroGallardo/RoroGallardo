@@ -82,6 +82,10 @@ export const lifeStyle = [
 ![CSS3](https://img.shields.io/badge/CSS_3-38B2AC?style=flat-square&logo=css&logoColor=white)
 ![mui](https://img.shields.io/badge/Mui-38B2AC?style=flat-square&logo=mui&logoColor=white)
 
+### AI 
+![MCP](https://img.shields.io/badge/MCP-F05032?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+
+
 ### Backend 
 ![NestJS](https://img.shields.io/badge/NestJS-339933?style=flat-square&logo=nestjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.JS-339933?style=flat-square&logo=nodedotjs&logoColor=white)
@@ -101,7 +105,6 @@ export const lifeStyle = [
 ![Mosquitto](https://img.shields.io/badge/Mosquitto-F05032?style=flat-square&logo=eclipsemosquitto&logoColor=white)
 ![Kibana](https://img.shields.io/badge/Kibana-F05032?style=flat-square&logo=kibana&logoColor=white)
 ![Copilot](https://img.shields.io/badge/Copilot-F05032?style=flat-square&logo=githubcopilot&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-F05032?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-F05032?style=flat-square&logo=apachekafka&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-F05032?style=flat-square&logo=swagger&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F05032?style=flat-square&logo=figma&logoColor=white)
